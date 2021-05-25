@@ -57,8 +57,10 @@ nav{
 　border-bottom:3px;
 　padding-bottom:30px;
   font-size: 30px;
-  padding-left: 150px; padding-top: 150px; padding-bottom: 150px;
-}
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  }
 
 
 /*這是理念與使命*/
@@ -95,6 +97,7 @@ nav{
 .title3{
 	color: #D95644;
 	text-align: center;
+	margin-top: 30px;
 }
 
 /*這是框內文字*/
@@ -103,7 +106,7 @@ nav{
 	width: 100%;
 	background-color: #ffffff;
 	border-radius: 5px;
-	border:0px;
+	border-width:1px;
 	padding: 12px;
 	resize: vertical;
 	color: #000000;
@@ -116,7 +119,7 @@ nav{
 	width: 100%;
 	background-color: #ffffff;
 	border-radius: 5px;
-	border:0px;
+	border-width:1px;
 	padding: 12px;
 }
 
@@ -124,10 +127,9 @@ nav{
 .send{
 	text-align: right;
 	padding:10px;
+	border-color:#adb5bd;
 }
-.send img{
-	display:inline;
-}
+
 .send h5{
 	display:inline;
 	font-weight: bold;
@@ -145,5 +147,4 @@ footer span{
 footer{
 		text-align: center;
 		margin-bottom: 20px;
-		margin-top: 30px;
 }
